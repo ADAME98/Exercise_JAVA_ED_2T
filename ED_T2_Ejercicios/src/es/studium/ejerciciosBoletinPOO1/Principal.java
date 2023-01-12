@@ -33,5 +33,7 @@ public class Principal {
 		System.out.println(
 				"Pelicula: " + p5.getTitulo() + ", " + p5.getAnio() + " (" + p5.getDuracion() + " minutos), Director: "
 						+ p5.getDirector().getNombre() + " (" + p5.getDirector().getNacionalidad() + ")");
+		
+		//Exercise-JAVA_ED_T1 DateTimeFormatter.ofPattern(dd/mm/aaaa);
 	}
 }
